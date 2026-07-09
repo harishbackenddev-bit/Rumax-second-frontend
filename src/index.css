@@ -236,6 +236,18 @@ nav ul li a:hover {
 
 }
 
+ul.submenu.open {
+    display: flex !important;
+}
+@media (max-width: 991px) {
+    .submenu {
+        position: static;
+        display: none !important;
+        box-shadow: none;
+        padding: 15px 0 0 15px;
+    }
+}
+
 .dropdown:hover .submenu {
 
   display: flex;
