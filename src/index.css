@@ -435,7 +435,7 @@ SOCIAL
 
 .footer-social p {
   color: #d8d8d8;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1.9;
   margin-bottom: 35px;
 }
@@ -512,7 +512,7 @@ BUTTONS
   justify-content: center;
   text-decoration: none;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 600;
   transition: .3s;
   text-align: center;
