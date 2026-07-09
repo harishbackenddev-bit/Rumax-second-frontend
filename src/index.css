@@ -763,7 +763,7 @@ CERTIFICATES
 }
 
 .hvs-content .hvs-subtext {
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 14px;
   line-height: 36px;
   font-weight: 400;
@@ -990,7 +990,7 @@ CERTIFICATES
 
 .card h3 {
   margin: 0 0 10px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
   color: #260A00;
 }
