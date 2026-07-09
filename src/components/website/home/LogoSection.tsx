@@ -18,7 +18,11 @@ const LogoSection = () => {
       <div className="container">
         <div className="inner-logos">
           <div className="left-logo-0">
-            <h3>Trusted by leading global CROs, Biopharma, Sponsors, and NHS Research Teams</h3>
+            <h3>
+              Trusted by leading global CROs, Biopharma, Sponsors,
+              <br />
+              and NHS Research Teams
+            </h3>
           </div>
           <div className="right-logo-0">
             <div className="footer-certificates">
