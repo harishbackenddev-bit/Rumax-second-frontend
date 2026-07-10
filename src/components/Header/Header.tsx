@@ -68,11 +68,15 @@ const Header = () => {
 
   // Dropdown items for Services
   const dropdownItems = [
-    { label: "Domiciliary Care/Personal Care Service", path: "/domiciliary-and-personal-care" },
-    { label: "Supported Living Service", path: "/supported-living" },
-    { label: "Training", path: "/training-service" },
+    {
+      label: "Investigator Trial Location Support Service",
+      path: "/investigator-trial-location-support-service",
+    },
+    {
+      label: "Clinical Trials Homecare Services",
+      path: "/clinical-trials-homecare-services",
+    }
   ];
-
   return (
     <>
       {/* TOP BAR */}
@@ -127,7 +131,7 @@ const Header = () => {
                 </Link>
               </li>
 
-              <li 
+              <li
                 ref={dropdownRef}
                 className={`dropdown li-list ${isDropdownOpen ? 'active' : ''}`}
               >
@@ -188,7 +192,7 @@ const Header = () => {
           </Link>
 
           {/* Mobile Toggle */}
-          <div 
+          <div
             className="mobile-toggle"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >

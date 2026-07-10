@@ -7,6 +7,7 @@ import AuthLayout from "@/layouts/AuthLayout";
 
 // Website Pages
 import Home from "@/pages/website/Home";
+import Investigator from "@/pages/website/services/Investigator";
 
 const AppRoutes = () => {
   return (
@@ -15,6 +16,7 @@ const AppRoutes = () => {
       <Route path="/" element={<WebsiteLayout />}>
         {/* Main Pages */}
         <Route index element={<Home />} />
+           <Route path="/investigator-trial-location-support-service" element={<Investigator />} />
       </Route>
 
       {/* AUTH - Public */}
