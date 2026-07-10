@@ -187,6 +187,9 @@ const Header = () => {
           </nav>
 
           {/* Trial Button */}
+           <Link to="https://rumax-first-website.vercel.app/" className="trial-btn">
+            Switch to Domiciliary Care
+          </Link>
           <Link to="/contact-us" className="trial-btn">
             Start Your Trials
           </Link>
