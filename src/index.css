@@ -1157,9 +1157,9 @@ section.hvs-section.page-main-custom.page-section.hvs-main-service.hs-vs .info-g
   width: auto;
 }
 
-section.hvs-section.page-main-custom.page-section.hvs-main-service .info-card {
-    border: 1px solid #FAF5FF;
-    background-color: #f4f5ff;
+section.hvs-section.page-main-custom.page-section.hvs-main-service.hs-vs .info-card {
+  border: none;
+  background-color: transparent;
 }
 
 section.hvs-section.page-main-custom.page-section.hvs-main-service.hs-vs .info-card h3 {
