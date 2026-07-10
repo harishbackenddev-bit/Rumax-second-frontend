@@ -325,7 +325,10 @@ nav ul li a:hover {
   top: 12px;
   left: 20px;
 }
-
+.btns-nav {
+    display: flex;
+    gap: 10px;
+}
 
 
 /*==================================
