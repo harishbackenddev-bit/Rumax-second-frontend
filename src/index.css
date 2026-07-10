@@ -378,7 +378,7 @@ HEADINGS
 ===================================*/
 
 .footer h3 {
-  font-size: 32px;
+  /* font-size: 32px; */
   font-weight: 600;
   margin-bottom: 35px;
   color: #fff;
@@ -459,7 +459,7 @@ SOCIAL
 }
 
 .bottom-foot h4 {
-  font-size: 18.37px;
+  /* font-size: 18.37px; */
   font-weight: 400;
   color: #ffffff;
   margin: 0;
@@ -894,7 +894,7 @@ CERTIFICATES
 }
 
 .page-main-custom .info-card h3 {
-  font-size: 24px;
+  /* font-size: 24px; */
   line-height: 30px;
   color: #260A00;
 }
@@ -952,7 +952,7 @@ CERTIFICATES
 
 .card h3 {
   margin: 0 0 10px;
-  font-size: 22px;
+  /* font-size: 22px; */
   font-weight: 600;
   color: #260A00;
 }
@@ -1143,9 +1143,9 @@ section.page-main-custom.page-section.grid-service.grid2.grid3 .info-card p {
   margin-top: clamp(9px, .78vw, 9px);
 }
 
-section.page-main-custom.page-section.grid-service.grid2.grid3 .info-card h3 {
+/* section.page-main-custom.page-section.grid-service.grid2.grid3 .info-card h3 {
   font-size: 20px;
-}
+} */
 
 section.page-main-custom.page-section.grid-service.grid2.grid3 .info-card p {
   margin-top: clamp(6px, .78vw, 6px);
@@ -1162,9 +1162,9 @@ section.hvs-section.page-main-custom.page-section.hvs-main-service.hs-vs .info-c
   background-color: transparent;
 }
 
-section.hvs-section.page-main-custom.page-section.hvs-main-service.hs-vs .info-card h3 {
+/* section.hvs-section.page-main-custom.page-section.hvs-main-service.hs-vs .info-card h3 {
   font-size: 18px;
-}
+} */
 
 section.hvs-section.page-main-custom.page-section.hvs-main-service.hs-vs .bottom-grid-area {
   padding: 0;
