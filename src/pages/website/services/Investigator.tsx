@@ -114,12 +114,15 @@ function Investigator() {
         description="We provide highly trained mobile research nurses who act as a seamless extension of your investigator site team. Here are seven key capabilities we deliver to support your clinical trials:"
       />
 
+      {/* Section 1: Image on Right */}
       <ImageTextSection
         title="How Our Site Support Nurses Ensure Regulatory Compliance"
         subtitle="Our site support nurses are fully trained to maintain the highest regulatory standards. They ensure:"
         imageSrc="/images/rt-img.png"
         imageAlt="Doctor with patient"
+        imageLeft={false}  // Image on RIGHT
       />
+
 
       <GridSection
         title="Reasons To Choose Our Trial Location Support Services"
@@ -134,16 +137,17 @@ function Investigator() {
         bgClass="grid2 grid3"
       />
 
+      {/* Section 2: Image on Left */}
       <ImageTextSection
         title="Care Meets Clinical Precision"
         subtitle="Our approach combines compassionate patient interaction with strict clinical accuracy, ensuring both participant comfort and study success."
-        description=""
         paragraphs={[
           "Every Rumax research nurse is trained to balance the human element of patient care with the rigorous demands of clinical trial protocols, creating an environment where participants feel valued while maintaining the highest standards of data integrity and regulatory compliance."
         ]}
         imageSrc="/images/right-docc.png"
         imageAlt="Doctor with patient"
         bgClass="hs-vs"
+        imageLeft={true}  // Image on LEFT
       />
 
       <LogoSection
