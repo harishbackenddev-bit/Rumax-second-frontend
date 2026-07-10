@@ -319,7 +319,10 @@ nav ul li a:hover {
   cursor: pointer;
 
 }
-
+ul.submenu.open li:first-child a {
+    color: #12086f;
+    background: #f3f9ff;
+}
 .menu-close {
   position: absolute;
   top: 12px;
