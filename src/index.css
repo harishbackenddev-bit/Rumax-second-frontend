@@ -123,7 +123,11 @@ TOP BAR
   align-items: center;
 
 }
-
+a.trial-btn.switch-main {
+    border: 2px solid #12086f;
+    background: transparent;
+    color: #12086f;
+}
 .top-left {
 
   display: flex;
