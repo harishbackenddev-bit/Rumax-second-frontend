@@ -84,7 +84,7 @@ h4 {
 span,
 p,
 a {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -227,7 +227,7 @@ nav ul li a {
 
   color: #222;
 
-  font-size: 18px;
+  font-size: 16px;
 
   font-weight: 500;
 
@@ -284,7 +284,7 @@ nav ul li a:hover {
 
 .trial-btn {
 
-  padding: 18px 20px;
+  padding: 10px 15px;
 
   background: #12086F;
 
@@ -422,7 +422,7 @@ SOCIAL
 
 .footer-social p {
   color: #d8d8d8;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1.9;
   margin-bottom: 35px;
 }
@@ -486,7 +486,7 @@ BUTTONS
   justify-content: center;
   text-decoration: none;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   transition: .3s;
   text-align: center;
@@ -832,7 +832,7 @@ CERTIFICATES
 }
 
 .page-main-custom .page-section__heading p {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 36px;
   color: #666666;
   font-weight: 400;
@@ -1740,7 +1740,7 @@ MOBILE
   }
 
   .bottom-rich-txt p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
   }
 
@@ -1913,7 +1913,7 @@ MOBILE
   }
 
   .hvs-content .hvs-subtext {
-    font-size: 15px;
+    font-size: 16px;
     line-height: normal;
   }
 
@@ -2008,7 +2008,7 @@ MOBILE
   }
 
   .footer ul li a {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .social-icons {
@@ -2021,7 +2021,7 @@ MOBILE
 
   .footer-btn {
     height: 50px;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .footer-certificates {
