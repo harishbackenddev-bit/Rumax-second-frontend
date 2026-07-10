@@ -187,13 +187,14 @@ const Header = () => {
           </nav>
 
           {/* Trial Button */}
+          <div className="btns-nav">
            <Link to="https://rumax-first-website.vercel.app/" className="trial-btn switch-main">
             Switch to Domiciliary Care
           </Link>
           <Link to="/contact-us" className="trial-btn">
             Start Your Trials
           </Link>
-
+          </div>
           {/* Mobile Toggle */}
           <div
             className="mobile-toggle"
