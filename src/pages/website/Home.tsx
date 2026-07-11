@@ -30,7 +30,7 @@ function Home() {
     <div className="test">
       <ServiceSwitchModal
         message="You are currently on our Clinical Trials and Site Support services. If you'd like to switch to our Care Support services, please switch here."
-        switchHref="https://REPLACE-WITH-CARE-SUPPORT-DOMAIN.com"
+        switchHref="https://rumax-first-website.vercel.app/"
       />
       <Hero />
       <LogoSection />
