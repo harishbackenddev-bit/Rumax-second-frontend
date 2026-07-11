@@ -7,7 +7,7 @@ import GridSection from "@/components/website/home/GridSection";
 import FormSection from "@/components/website/home/FormSection";
 import TrustSection from "@/components/website/home/TrustSection";
 import RichTextSection from "@/components/website/home/RichTextSection";
-
+import { ServiceSwitchModal } from "@/components/ServiceSwitchModal";
 function Home() {
   // Data for sections
   const section1Items = [
@@ -28,6 +28,10 @@ function Home() {
 
   return (
     <div className="test">
+      <ServiceSwitchModal
+        message="You are currently on our Clinical Trials and Site Support services. If you'd like to switch to our Care Support services, please switch here."
+        switchHref="https://REPLACE-WITH-CARE-SUPPORT-DOMAIN.com"
+      />
       <Hero />
       <LogoSection />
       
