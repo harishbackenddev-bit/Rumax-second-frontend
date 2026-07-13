@@ -13,7 +13,6 @@
   background: #fff;
   border-radius: 12px;
   padding: 40px 32px 32px;
-  max-width: 460px;
   width: 90%;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -36,17 +35,19 @@
 }
 
 .ssm-text {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 24px;
   color: #222;
+  text-align: left;
 }
 
 .ssm-actions {
   display: flex;
   gap: 12px;
-  justify-content: center;
+ 
   flex-wrap: wrap;
+      justify-content: flex-end;
 }
 
 .ssm-switch-button,
