@@ -3,7 +3,7 @@
   inset: 0;
   background: #000000e3;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   z-index: 1000;
 }
@@ -16,6 +16,7 @@
   width: 90%;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   text-align: center;
+  top: 10%;
 }
 
 .ssm-close-button {
