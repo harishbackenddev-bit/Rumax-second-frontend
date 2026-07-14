@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRouter } from "next/router";
+import { useState, useEffect } from "react";
 import Hero from "@/components/website/home/Hero";
 import LogoSection from "@/components/website/home/LogoSection";
 import ImageTextSection from "@/components/website/home/ImageTextSection";
@@ -25,11 +25,14 @@ function Home() {
     "Clinical Procedure Delivery",
     "NHS & Multi-Site Integration",
   ];
-const router = useRouter();
-const isSwitched = router.isReady && router.query.switched === "true";
+  const [isSwitched, setIsSwitched] = useState(false);
+ useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    setIsSwitched(params.get("switched") === "true");
+  }, []);
   return (
     <div className="test">
-       {!isSwitched && (
+        {!isSwitched && (
         <ServiceSwitchModal switchHref="https://rumax-second-frontend.vercel.app/?switched=true" />
       )}
       <Hero />
