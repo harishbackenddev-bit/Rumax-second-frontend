@@ -25,13 +25,13 @@ function Home() {
     "Clinical Procedure Delivery",
     "NHS & Multi-Site Integration",
   ];
-
+const searchParams = useSearchParams();
+const isSwitched = searchParams.get("switched") === "true";
   return (
     <div className="test">
-      <ServiceSwitchModal
-        message="You are currently on our Clinical Trials and Site Support services. If you'd like to switch to our Care Support services, please switch here."
-        switchHref="https://rumax-first-website.vercel.app/"
-      />
+      {!isSwitched && (
+        <ServiceSwitchModal switchHref="https://rumax-second-frontend.vercel.app/?switched=true" />
+      )}
       <Hero />
       <LogoSection />
       
