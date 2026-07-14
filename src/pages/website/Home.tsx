@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { useSearchParams } from "next/navigation";
+import { useRouter } from "next/router";
 import Hero from "@/components/website/home/Hero";
 import LogoSection from "@/components/website/home/LogoSection";
 import ImageTextSection from "@/components/website/home/ImageTextSection";
@@ -26,8 +26,8 @@ function Home() {
     "Clinical Procedure Delivery",
     "NHS & Multi-Site Integration",
   ];
-const searchParams = useSearchParams();
-const isSwitched = searchParams.get("switched") === "true";
+const router = useRouter();
+const isSwitched = router.query.switched === "true";
   return (
     <div className="test">
       {!isSwitched && (
