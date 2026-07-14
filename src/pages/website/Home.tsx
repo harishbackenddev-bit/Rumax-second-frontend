@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { useSearchParams } from "next/navigation";
 import Hero from "@/components/website/home/Hero";
 import LogoSection from "@/components/website/home/LogoSection";
 import ImageTextSection from "@/components/website/home/ImageTextSection";
