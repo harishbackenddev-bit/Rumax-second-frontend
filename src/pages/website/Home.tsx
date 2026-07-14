@@ -33,7 +33,9 @@ function Home() {
   return (
     <div className="test">
         {!isSwitched && (
-        <ServiceSwitchModal switchHref="https://rumax-second-frontend.vercel.app/?switched=true" />
+        <ServiceSwitchModal message="You are currently on our Clinical Trials and Site Support Services. If you would like
+            to switch to Care Support Services, please
+            switch here." switchHref="https://rumax-second-frontend.vercel.app/?switched=true" />
       )}
       <Hero />
       <LogoSection />
