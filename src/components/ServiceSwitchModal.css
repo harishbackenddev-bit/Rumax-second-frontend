@@ -1,86 +1,128 @@
 .ssm-overlay {
   position: fixed;
   inset: 0;
-  background: #000000e3;
+  background: rgba(0, 0, 0, 0.82);
   display: flex;
-  align-items: flex-start;
   justify-content: center;
-  z-index: 1000;
+  align-items: flex-start;
+  padding: 20px;
+  z-index: 9999;
 }
 
 .ssm-modal {
   position: relative;
+  width: min(1240px, 100%);
+  margin-top: 10px;
   background: #fff;
-  border-radius: 12px;
-  padding: 40px 32px 32px;
-  width: 90%;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  top: 10%;
+  border: 6px solid #d8e7ff;
+  border-radius: 36px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  padding: 42px 40px 30px;
 }
 
 .ssm-close-button {
   position: absolute;
-  top: 12px;
-  right: 16px;
-  background: #ccc;
+  top: 22px;
+  right: 22px;
+  width: 58px;
+  height: 58px;
   border: none;
-  font-size: 24px;
+  border-radius: 50%;
+  background: #d9d8ef;
+  color: #27224b;
+  font-size: 34px;
   line-height: 1;
   cursor: pointer;
-  color: #666;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
 }
 
 .ssm-close-button:hover {
-  color: #000;
+  background: #cfcde8;
 }
 
 .ssm-text {
-  font-size: 20px;
-  line-height: 1.5;
-  margin-bottom: 24px;
+  margin: 0;
+  max-width: 900px;
+  font-size: 22px;
+  line-height: 1.7;
   color: #222;
+  font-weight: 400;
   text-align: left;
 }
 
 .ssm-actions {
   display: flex;
-  gap: 12px;
- 
-  flex-wrap: wrap;
-      justify-content: flex-end;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-top: 70px;
 }
 
 .ssm-switch-button,
 .ssm-stay-button {
-  padding: 10px 24px;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  border: 1px solid transparent;
+  min-width: 160px;
+  height: 58px;
+  padding: 0 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
-  display: inline-block;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 .ssm-switch-button {
-  background: #12086f;
+  background: #6b1c88;
   color: #fff;
+  border: none;
 }
 
 .ssm-switch-button:hover {
-  opacity: 0.9;
+  background: #57166d;
 }
 
 .ssm-stay-button {
   background: #fff;
-  color: #333;
-  border-color: #ccc;
+  color: #777;
+  border: 1px solid #cfcfcf;
 }
 
 .ssm-stay-button:hover {
   background: #f5f5f5;
+}
+
+@media (max-width: 992px) {
+  .ssm-modal {
+    padding: 70px 24px 24px;
+    border-radius: 24px;
+    border-width: 4px;
+  }
+
+  .ssm-text {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .ssm-actions {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+
+  .ssm-switch-button,
+  .ssm-stay-button {
+    width: 100%;
+  }
+
+  .ssm-close-button {
+    width: 46px;
+    height: 46px;
+    top: 14px;
+    right: 14px;
+    font-size: 26px;
+  }
 }
