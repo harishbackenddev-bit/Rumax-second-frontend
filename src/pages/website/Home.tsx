@@ -1,4 +1,3 @@
-"use client";
 import React from 'react';
 import { useRouter } from "next/router";
 import Hero from "@/components/website/home/Hero";
@@ -30,7 +29,7 @@ const router = useRouter();
 const isSwitched = router.query.switched === "true";
   return (
     <div className="test">
-      {!isSwitched && (
+       {!isSwitched && (
         <ServiceSwitchModal switchHref="https://rumax-second-frontend.vercel.app/?switched=true" />
       )}
       <Hero />
