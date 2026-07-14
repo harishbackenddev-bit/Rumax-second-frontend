@@ -26,7 +26,7 @@ function Home() {
     "NHS & Multi-Site Integration",
   ];
 const router = useRouter();
-const isSwitched = router.query.switched === "true";
+const isSwitched = router.isReady && router.query.switched === "true";
   return (
     <div className="test">
        {!isSwitched && (
